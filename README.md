@@ -28,6 +28,10 @@ $ mysql -u root -ppassword
 
 . lancer le CLI (Command Level Interface) de MySQL
 
+````
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
+```
+
 ```
 mysql> create database etudiants;
 mysql> create user 'etudiants'@'localhost' identified by 'etudiants_1';
