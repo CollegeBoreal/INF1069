@@ -10,11 +10,15 @@ Sauver le mot passe donné par MySQL Installation
 
 . Initialiser les commandes MySQL sur le "path"
 
+```
 vi ~/.bash_profile
+```
 
 Ajouter 
 
+```
 $PATH=/usr/local/mysql/bin:$PATH
+```
 
 . lancer la commande ci-dessous dans le terminal
 
