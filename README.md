@@ -4,6 +4,7 @@ jour
 ### SGBD:
 
 . installer and démarrer MySQL (mysql.server start)
+
 Initialiser le mot de passe de l'utilisateur root a "password"
 
 . lancer la commande ci-dessous dans le terminal
