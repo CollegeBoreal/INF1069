@@ -17,7 +17,7 @@ vi ~/.bash_profile
 Ajouter 
 
 ```
-$PATH=/usr/local/mysql/bin:$PATH
+export PATH=/usr/local/mysql/bin:$PATH
 ```
 
 . lancer la commande ci-dessous dans le terminal
