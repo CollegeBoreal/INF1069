@@ -4,7 +4,17 @@
 
 . installer and démarrer MySQL (mysql.server start)
 
-Initialiser le mot de passe de l'utilisateur root a "password"
+. Initialiser le mot de passe de l'utilisateur root a "password"
+
+Sauver le mot passe donné par MySQL Installation
+
+. Initialiser les commandes MySQL sur le "path"
+
+vi ~/.bash_profile
+
+Ajouter 
+
+$PATH=/usr/local/mysql/bin:$PATH
 
 . lancer la commande ci-dessous dans le terminal
 
