@@ -4,6 +4,6 @@ CREATE TABLE cobalt (
    high DECIMAL(10, 6 ) NULL,
    low DECIMAL(10, 6 ) NULL,
    close DECIMAL(10, 6 ) NULL,
-   volume DECIMAL(10, 6 ) NULL,
+   volume DECIMAL(10, 2 ) NULL,
    adjusted DECIMAL(10, 6 ) NULL
 );
