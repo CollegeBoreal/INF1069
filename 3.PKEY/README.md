@@ -1,18 +1,14 @@
 DDL
 
-
-http://www.mysqltutorial.org/import-csv-file-mysql-table/
-
 Creer la table
 
 ```
-$ mysql -u etudiants -p etudiants < cobalt_table.sql
+$ mysql -u etudiants -p etudiants < commodity_table.sql
 ```
 
-Charger la table
+Insérer des enregistrements
 
 ```
-$ mysql -u etudiants -p etudiants < cobalt_table.ctl
+mysql> INSERT INTO commodity  (nom)  VALUES  ('Cobalt');
+mysql> INSERT INTO commodity  (nom)  VALUES  ('Gaz');
 ```
-
-http://www.xarg.org/2012/08/running-standard-deviation-in-mysql/
