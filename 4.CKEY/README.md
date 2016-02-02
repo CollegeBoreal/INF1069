@@ -1,18 +1,17 @@
 DDL
 
-
-http://www.mysqltutorial.org/import-csv-file-mysql-table/
-
-Creer la table
+# Creer la table
 
 ```
-$ mysql -u etudiants -p etudiants < cobalt_table.sql
+$ mysql -u etudiants -p etudiants < price_commodity_table.sql
 ```
 
-Charger la table
+# Editer le fichier de données pour rajouter la clé composite
+
+# Créer le fichier de chargement de données
+
+# Charger la table
 
 ```
-$ mysql -u etudiants -p etudiants < cobalt_table.ctl
+$ mysql -u etudiants -p etudiants < price_commodity_table.ctl
 ```
-
-http://www.xarg.org/2012/08/running-standard-deviation-in-mysql/
