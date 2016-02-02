@@ -33,7 +33,7 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
 ```
 
 ```
-mysql> create database etudiants;
-mysql> create user 'etudiants'@'localhost' identified by 'etudiants_1';
-mysql> grant all on etudiants.* to 'etudiants'@'localhost';
+mysql> CREATE DATABASE etudiants;
+mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
+mysql> GRANT ON ALL etudiants.* TO 'etudiants'@'localhost';
 ```
