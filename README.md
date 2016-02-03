@@ -35,5 +35,5 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
 ```
 mysql> CREATE DATABASE etudiants;
 mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
-mysql> GRANT ON ALL etudiants.* TO 'etudiants'@'localhost';
+mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
 ```
