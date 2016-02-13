@@ -31,15 +31,9 @@ export PATH=/usr/local/mysql/bin:$PATH
 $ mysql -u root -ppassword
 ```
 
-. lancer le CLI (Command Level Interface) de MySQL
+. lancer le CLI (Command Level Interface) de MySQL et changer le mot de passe de root
 
 ````
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
-```
-
-```
-mysql> CREATE DATABASE etudiants;
-mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
-mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
 ```
 
