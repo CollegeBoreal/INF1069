@@ -28,7 +28,7 @@ export PATH=/usr/local/mysql/bin:$PATH
 . lancer la commande ci-dessous dans le terminal
 
 ```
-$ mysql -u root -ppassword
+$ mysql -u root -p<le mot de passe apres l'installation>
 ```
 
 . lancer le CLI (Command Level Interface) de MySQL et changer le mot de passe de root
