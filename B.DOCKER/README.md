@@ -33,14 +33,14 @@ $ docker exec -it INF1069-mysql bash
 ## Commandes utiles
 
 ```
-$ docker search centos // It will help you to search one image
-$ docker pull centos // It will help you to download one image
-$ docker images // it will list all images which you have
-$ docker ps // it will show all running containers
-$ docker ps -a // it will show all containers
-$ docker rm // it will remove container
-$ docker rmi // it will remove image
-$ docker rm `docker ps -a -q` // it will remove all containers
-$ docker history image_name // list image's history
-$ docker info // get docker info
+$ docker search ubuntu // Chercher une image
+$ docker pull ubuntu // telecharger image
+$ docker images // Liste de toutes les images
+$ docker ps // Liste de tous les containers
+$ docker ps -a // Liste de tous les containers incluant les containers arretes
+$ docker rm // Enleve un container
+$ docker rmi // Enleve une image
+$ docker rm `docker ps -a -q` // Enleve tous les containers
+$ docker history nom_image // list l'histoire d'une image
+$ docker info // Recupere docker info
 ```
