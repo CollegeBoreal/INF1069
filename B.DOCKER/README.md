@@ -9,7 +9,7 @@ https://www.docker.com/products/docker-toolbox
 . Installer INF1069 dans le dossier ~/Developer
 
 ```
-$ git clone git@github.com:setrar/INF1069.git
+$ git clone git@github.com:CollegeBoreal/INF1069-16H.git
 ```
 
 . changer de repertoire
