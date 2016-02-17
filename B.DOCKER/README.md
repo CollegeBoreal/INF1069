@@ -21,7 +21,7 @@ $ cd INF1069
 . Installer MySQL
 
 ```
-$ docker run --name INF1069-mysql -e MYSQL_ROOT_PASSWORD=password -v ~/Developer/INF1069:/Developer/INF1069 -d mysql:latest 
+$ docker run --name INF1069-mysql -e MYSQL_ROOT_PASSWORD=password -v ~/Developer/INF1069-16H:/Developer/INF1069-16H -d mysql:latest 
 ```
 
 . Executer la commande d'accer a MySQL
