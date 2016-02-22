@@ -8,4 +8,4 @@ CREATE TABLE price (
    volume DECIMAL(10, 6 ) NULL,
    adjusted DECIMAL(10, 6 ) NULL,
    PRIMARY KEY (id, price_date)
-);I
+);
