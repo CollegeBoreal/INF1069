@@ -15,7 +15,7 @@ $ git clone git@github.com:CollegeBoreal/INF1069-16H.git
 . changer de repertoire
 
 ```
-$ cd INF1069
+$ cd INF1069-16H
 ```
 
 . Installer MySQL
