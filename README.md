@@ -14,4 +14,6 @@ Dump
 
 ```
 mysqldump --skip-lock-tables -u etudiants -p etudiants > etudiants.sql
+Test
+
 ```
