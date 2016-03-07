@@ -4,4 +4,4 @@ http://dev.mysql.com/doc/index-other.html
 
 ### Charger les données
 
-$ docker exec  -i etudiants-mysql  mysql -u etudiants -p<MDP> world < ~/world.sql
+$ docker exec  -i INF1069-mysql  mysql -u etudiants -p<MDP> world < ~/world.sql
