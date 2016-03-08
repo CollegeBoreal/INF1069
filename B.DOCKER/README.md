@@ -1,6 +1,6 @@
 # Docker
 
-# Installation
+## Installation Machine Hôte (Windows, Mac OS X)
 
 . Installer Docker Toolbox
 
@@ -30,6 +30,22 @@ $ docker run --name INF1069-mysql -e MYSQL_ROOT_PASSWORD=password -v ~/Developer
 $ docker exec -it INF1069-mysql bash
 ```
 
+## Installation Nuage [ATIR - Ubuntu Trusty 14.04 (LTS)]
+
+https://docs.docker.com/engine/installation/linux/ubuntulinux/
+
+### Update your apt sources
+```
+ $ apt-get update
+ $ apt-get install apt-transport-https ca-certificates
+```
+### Add the new GPG key.
+
+```
+$ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+```
+
+
 ## Commandes utiles
 
 ```
@@ -44,3 +60,4 @@ $ docker rm `docker ps -a -q` // Enleve tous les containers
 $ docker history nom_image // list l'histoire d'une image
 $ docker info // Recupere docker info
 ```
+
