@@ -36,8 +36,8 @@ https://docs.docker.com/engine/installation/linux/ubuntulinux/
 
 ### Update your apt sources
 ```
- $ apt-get update
- $ apt-get install apt-transport-https ca-certificates
+ $ sudo apt-get update
+ $ sudo apt-get install apt-transport-https ca-certificates
 ```
 ### Add the new GPG key.
 
