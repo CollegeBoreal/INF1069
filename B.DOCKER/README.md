@@ -62,17 +62,17 @@ echo "deb https://apt.dockerproject.org/repo ubuntu-wily main" > sudo /etc/apt/s
 ### Update the APT package index.
 
 ```
-$ apt-get update
+$ sudo apt-get update
 ```
 
 ### Purge the old repo if it exists.
 ```
-$ apt-get purge lxc-docker
+$ sudo apt-get purge lxc-docker
 ```
 
 ### Verify that APT is pulling from the right repository.
 ```
-$ apt-cache policy docker-engine
+$ sudo apt-cache policy docker-engine
 ```
 
 ### AUFS Storage Driver for Wily and Trusty
