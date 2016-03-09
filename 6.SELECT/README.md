@@ -11,3 +11,5 @@ Télécharger le fichier world.sql dans le répertoire racine du projet.
 - remplacer le <PWD>
 
 $ docker exec  -i INF1069-mysql  mysql -u etudiants -p<MDP> world < ~/world.sql
+
+### Éxécuter les commandes SQL de BlackBoard
