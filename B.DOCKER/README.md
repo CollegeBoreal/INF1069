@@ -30,7 +30,20 @@ $ docker run --name INF1069-mysql -e MYSQL_ROOT_PASSWORD=password -v ~/Developer
 $ docker exec -it INF1069-mysql bash
 ```
 
+###
+
 ## Installation Nuage [ATIR - Ubuntu Trusty 14.04 (LTS)]
+
+### Short Version
+
+To install docker in Ubuntu 14.04 use the commands:
+
+```
+$ sudo apt-get update
+$ wget -qO- https://get.docker.com/ | sh
+```
+
+### Long Version
 
 https://docs.docker.com/engine/installation/linux/ubuntulinux/
 
