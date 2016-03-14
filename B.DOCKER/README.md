@@ -104,6 +104,25 @@ $ sudo apt-get install docker-engine
 $ sudo service docker start
 ```
 
+### Docker root access on Ubuntu
+
+- Add the docker group if it doesn't already exist:
+
+```
+$ sudo groupadd docker
+```
+
+- Add the connected user "${USER}" to the docker group. Change the user name to match your preferred user:
+
+```
+$ sudo gpasswd -a ${USER} docker
+```
+
+- Restart the Docker daemon:
+
+```
+$ sudo service docker restart
+```
 
 ## Commandes utiles
 
