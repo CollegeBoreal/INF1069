@@ -3,8 +3,9 @@
 ### Example de bases de données
 http://dev.mysql.com/doc/index-other.html
 
-### Fichier World.sql
+### Fichier sakila-db
 Télécharger le fichier world.sql dans le répertoire racine du projet.
+http://downloads.mysql.com/docs/sakila-db.zip
 
 ### Charger les données dans Docker 
 
