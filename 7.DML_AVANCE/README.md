@@ -14,16 +14,18 @@ http://downloads.mysql.com/docs/sakila-db.zip
 
 - remplacer le <PWD>
 
+- Créer la base de données sakila
+
 - Charger la base
 
 ```
-$ docker exec  -i INF1069-mysql  mysql -u etudiants -p<MDP> world < ~/sakila-db/sakila-schema.sql
+$ docker exec  -i INF1069-mysql  mysql -u etudiants -p<MDP> sakila < ~/sakila-db/sakila-schema.sql
 ```
 
 - Charger les données
 
 ```
-$ docker exec  -i INF1069-mysql  mysql -u etudiants -p<MDP> world < ~/sakila-db/sakila-data.sql
+$ docker exec  -i INF1069-mysql  mysql -u etudiants -p<MDP> sakila < ~/sakila-db/sakila-data.sql
 ```
 
 ### Éxécuter les commandes SQL de BlackBoard
