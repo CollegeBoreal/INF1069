@@ -17,3 +17,9 @@ mysqldump --skip-lock-tables -u etudiants -p etudiants > etudiants.sql
 Test
 
 ```
+
+###
+
+```
+mysql> select * from rental where rental_date between '2005-08-23 01:00:00' and '2005-08-23 02:00:00' and return_date between '2005-08-23 23:00:00' and '2005-08-23 23:59:00';
+```
