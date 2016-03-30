@@ -27,7 +27,7 @@ inner join payment p on p.customer_id = m.customer_id
 where country like 'Congo%' or country like 'Algeria';
 ```
 
-Imprimer le nom et le montant de la facture totale des personnes habitant le Congo (ANSI-92)
+Imprimer le nom et le montant de la facture totale des personnes habitant le Congo et l'Algerie (ANSI-92)
 
 ```
 select IFNULL(o.country, 'TOUS LES PAYS') AS Pays, IFNULL(m.last_name,'Total') as Nom, sum(p.amount) as Facture from 
