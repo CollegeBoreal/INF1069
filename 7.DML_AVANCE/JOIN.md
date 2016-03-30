@@ -24,7 +24,7 @@ inner join address a on m.address_id = a.address_id
 inner join city c on a.city_id = c.city_id 
 inner join country o on o.country_id = c.country_id 
 inner join payment p on p.customer_id = m.customer_id 
-where country like 'Congo%' or country like 'Algeria' 
+where country like 'Congo%' or country like 'Algeria';
 ```
 
 Imprimer le nom et le montant de la facture totale des personnes habitant le Congo (ANSI-92)
