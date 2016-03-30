@@ -26,5 +26,6 @@ inner join country o on o.country_id = c.country_id
 inner join payment p on p.customer_id = m.customer_id 
 where country like 'Congo%' or country like 'Algeria' 
 group by o.country, m.last_name 
+with rollup
 having sum(p.amount) > 100;
 ```
