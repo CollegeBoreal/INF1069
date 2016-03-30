@@ -17,7 +17,7 @@ and city like 'Lubumbashi' group by m.last_name;
 Imprimer le nom et le montant de la facture totale des personnes habitant le Congo (ANSI-92)
 
 ```
-select o.country, m.last_name as Nom, sum(p.amount) as Facture from 
+select o.country as Pays, m.last_name as Nom, sum(p.amount) as Facture from 
 customer m
 inner join address a on m.address_id = a.address_id
 inner join city c on a.city_id = c.city_id 
