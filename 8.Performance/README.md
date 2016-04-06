@@ -10,7 +10,7 @@
 ### Example de bases de données
 http://dev.mysql.com/doc/index-other.html
 
-### Fichier sakila-db
+### Fichier employees-db
 . Télécharger le fichier employees.sql dans le répertoire racine du projet.
 
 . Décompresser le fichier
