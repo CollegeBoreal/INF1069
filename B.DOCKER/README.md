@@ -155,3 +155,5 @@ $ sudo -H pip uninstall python-novaclient
 $ sudo easy_install python-novaclient
 $ nova --version
 ```
+
+http://docs.openstack.org/user-guide/common/cli_set_environment_variables_using_openstack_rc.html
