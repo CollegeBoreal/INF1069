@@ -157,3 +157,16 @@ $ nova --version
 ```
 
 http://docs.openstack.org/user-guide/common/cli_set_environment_variables_using_openstack_rc.html
+
+```
+$ docker-machine create --driver openstack -openstack-flavor-name m1.tiny --openstack-image-name "Ubuntu 14.04" --openstack-ssh-user ubuntu canarie0-ubuntu
+```
+
+
+### Nova Commands
+
+```
+$ nova floating-ip-pool-list
+$ nova image-list
+$ nova flavor-list
+```
