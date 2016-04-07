@@ -147,3 +147,11 @@ $ docker info // Recupere docker info
 $ sudo easy_install pip
 $ sudo -H pip install python-openstackclient --upgrade --ignore-installed six
 ```
+
+### [ImportError: No module named xmlrpc_client] issue
+
+```
+$ sudo -H pip uninstall python-novaclient
+$ sudo easy_install python-novaclient
+$ nova --version
+```
