@@ -138,35 +138,3 @@ $ docker rm `docker ps -a -q` // Enleve tous les containers
 $ docker history nom_image // list l'histoire d'une image
 $ docker info // Recupere docker info
 ```
-# OpenStack
-
-
-## On Mac
-
-```
-$ sudo easy_install pip
-$ sudo -H pip install python-openstackclient --upgrade --ignore-installed six
-```
-
-### [ImportError: No module named xmlrpc_client] issue
-
-```
-$ sudo -H pip uninstall python-novaclient
-$ sudo easy_install python-novaclient
-$ nova --version
-```
-
-http://docs.openstack.org/user-guide/common/cli_set_environment_variables_using_openstack_rc.html
-
-```
-$ docker-machine create --driver openstack -openstack-flavor-name m1.tiny --openstack-image-name "Ubuntu 14.04" --openstack-ssh-user ubuntu canarie0-ubuntu
-```
-
-
-### Nova Commands
-
-```
-$ nova floating-ip-pool-list
-$ nova image-list
-$ nova flavor-list
-```
