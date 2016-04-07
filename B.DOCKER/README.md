@@ -138,4 +138,12 @@ $ docker rm `docker ps -a -q` // Enleve tous les containers
 $ docker history nom_image // list l'histoire d'une image
 $ docker info // Recupere docker info
 ```
+# OpenStack
 
+
+## On Mac
+
+```
+$ sudo easy_install pip
+$ sudo -H pip install python-openstackclient --upgrade --ignore-installed six
+```
