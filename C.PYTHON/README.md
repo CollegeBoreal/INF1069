@@ -1,8 +1,17 @@
 ### INSTALL Connector
 
-easy_install pip
+# Installer PIP (Optional)
 
+```
+$ easy_install pip
+```
+
+
+# Installer le connector Python
+
+```
 pip install MySQL-python
+```
 
 on MacOS put the below in your path
 
