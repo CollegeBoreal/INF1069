@@ -10,7 +10,7 @@ $ easy_install pip
 # Installer le connector Python
 
 ```
-pip install MySQL-python
+$ pip install MySQL-python
 ```
 
 on MacOS put the below in your path
