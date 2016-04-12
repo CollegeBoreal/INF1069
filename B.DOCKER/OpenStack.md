@@ -42,5 +42,20 @@ $ docker-machine --debug \
          --openstack-sec-groups default \
     INF1069
 ```
+## Check if the VM is running
 
+```
+$ nova list
+```
 
+## Check if there's an available floating IP address
+
+```
+$ nova floating-ip-list
+```
+
+## Assign the new IP address
+
+```
+$ nova add-floating-ip cd2c796d-4280-4328-9bed-b168c8229fe3 <external IP address>
+```
