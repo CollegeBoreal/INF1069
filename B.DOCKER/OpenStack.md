@@ -25,7 +25,7 @@ $ docker-machine --debug create \
     --openstack-image-name "Ubuntu 14.04" \
     --openstack-ssh-user ubuntu \
     --openstack-endpoint-type publicURL \
-    --openstack-sec-groups default 
+    --openstack-sec-groups default \
     INF1069
 ```
 
