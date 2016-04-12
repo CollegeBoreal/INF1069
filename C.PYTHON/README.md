@@ -13,6 +13,9 @@ $ sudo easy_install pip
 $ sudo -H pip install MySQL-python
 ```
 
+
+### Troubleshooting
+
 on MacOS put the below in your path
 
 http://dev.mysql.com/downloads/connector/c/
