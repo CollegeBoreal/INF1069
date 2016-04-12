@@ -63,15 +63,15 @@ $ nova add-floating-ip cd2c796d-4280-4328-9bed-b168c8229fe3 <external IP address
 ## SSH into the host
 
 ```
-ssh -o BatchMode=yes \
-    -o PasswordAuthentication=no \
-    -o StrictHostKeyChecking=no \
-    -o UserKnownHostsFile=/dev/null \
-    -o IdentitiesOnly=yes \
-    -o LogLevel=quiet \
-    -o ConnectionAttempts=3 -o ConnectTimeout=10 \
-    -o ControlMaster=no -o ControlPath=none \
-    -p 22 \
-    -i ~/.docker/machine/machines/INF1069/id_rsa \
+$ ssh -o BatchMode=yes \
+      -o PasswordAuthentication=no \
+      -o StrictHostKeyChecking=no \
+      -o UserKnownHostsFile=/dev/null \
+      -o IdentitiesOnly=yes \
+      -o LogLevel=quiet \
+      -o ConnectionAttempts=3 -o ConnectTimeout=10 \
+      -o ControlMaster=no -o ControlPath=none \
+      -p 22 \
+      -i ~/.docker/machine/machines/INF1069/id_rsa \
     ubuntu@<external IP address>
 ```
