@@ -67,13 +67,11 @@ ssh -o BatchMode=yes \
     -o PasswordAuthentication=no \
     -o StrictHostKeyChecking=no \
     -o UserKnownHostsFile=/dev/null \
-    -o LogLevel=quiet \
-    -o ConnectionAttempts=3 \
-    -o ConnectTimeout=10 \
-    -o ControlMaster=no \
-    -o ControlPath=none \
     -o IdentitiesOnly=yes \
-    -i ~/.docker/machine/machines/INF1069/id_rsa \
+    -o LogLevel=quiet \
+    -o ConnectionAttempts=3 -o ConnectTimeout=10 \
+    -o ControlMaster=no -o ControlPath=none \
     -p 22 \
-    ubuntu@208.75.75.199 
+    -i ~/.docker/machine/machines/INF1069/id_rsa \
+    ubuntu@<external IP address>
 ```
