@@ -23,8 +23,15 @@ $ nova floating-ip-pool-list
 $ nova image-list
 $ nova flavor-list
 ```
+## Set your environment Variables
+
+```
+$ source ~/Developer/canarie.ca/collège-boréal-openrc-quebec.sh
+```
 
 http://docs.openstack.org/user-guide/common/cli_set_environment_variables_using_openstack_rc.html
+
+## Create the Docker Machine on OpenStack
 
 ```
 $ docker-machine --debug \
