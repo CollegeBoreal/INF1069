@@ -71,8 +71,9 @@ ssh -o BatchMode=yes \
     -o ConnectionAttempts=3 \
     -o ConnectTimeout=10 \
     -o ControlMaster=no \
-    -o ControlPath=none ubuntu@208.75.75.199 \
+    -o ControlPath=none \
     -o IdentitiesOnly=yes \
     -i ~/.docker/machine/machines/INF1069/id_rsa \
-    -p 22
+    -p 22 \
+    ubuntu@208.75.75.199 
 ```
