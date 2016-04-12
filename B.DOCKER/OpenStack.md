@@ -13,7 +13,15 @@ $ sudo -H pip install python-openstackclient --upgrade --ignore-installed six
 ```
 $ sudo -H pip uninstall python-novaclient
 $ sudo easy_install python-novaclient
+```
+
+### Testing Nova Commands
+
+```
 $ nova --version
+$ nova floating-ip-pool-list
+$ nova image-list
+$ nova flavor-list
 ```
 
 http://docs.openstack.org/user-guide/common/cli_set_environment_variables_using_openstack_rc.html
@@ -28,10 +36,4 @@ $ docker-machine --debug \
     INF1069
 ```
 
-### Nova Commands
 
-```
-$ nova floating-ip-pool-list
-$ nova image-list
-$ nova flavor-list
-```
