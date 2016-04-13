@@ -1,6 +1,8 @@
 #!/usr/bin/python
 import MySQLdb
 
+file_ = open('city.csv', 'w')
+file_.write ('city_id,city,country_id\n')
 db = MySQLdb.connect( user='etudiants',
                       passwd='etudiants_1',
                       host='192.168.99.100',
@@ -8,9 +10,10 @@ db = MySQLdb.connect( user='etudiants',
 
 cur = db.cursor()
 
-cur.execute("SELECT * FROM country")
+cur.execute("SELECT * FROM city")
 
 for row in cur.fetchall():
-    print row[0], row[1], row[2]
+    file_.write(str(row[0])+','+ row[1]+','+ str(row[2])+'\n')
 
 db.close()
+file_.close()
