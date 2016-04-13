@@ -1,4 +1,8 @@
 #!/usr/bin/python
+
+
+# Script pour telecharger City
+
 import MySQLdb
 
 file_ = open('city.csv', 'w')
