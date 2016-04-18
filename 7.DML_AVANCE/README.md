@@ -24,7 +24,7 @@ $ docker exec -it INF1069-mysql mysql -u root -p -e "create database sakila;"
 
 ```
 $ docker exec -it INF1069-mysql mysql -u root -p \ 
- -e "GRANT ALL PRIVILEGES on *.* TO 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1' WITH GRANT OPTION;"
+ -e "GRANT ALL PRIVILEGES on sakila.* TO 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1' WITH GRANT OPTION;"
 ```
 
 - Charger la base
