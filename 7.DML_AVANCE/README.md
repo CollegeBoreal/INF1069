@@ -17,8 +17,13 @@ http://downloads.mysql.com/docs/sakila-db.zip
 - Créer la base de données sakila
 
 ```
-$ docker exec -it INF1069-mysql \
- mysql -u root -p \ 
+$ docker exec -it INF1069-mysql mysql -u root -p -e "create database sakila;"
+```
+
+- Créer l'utilisateur etudiants
+
+```
+$ docker exec -it INF1069-mysql mysql -u root -p \ 
  -e "GRANT ALL PRIVILEGES on *.* TO 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1' WITH GRANT OPTION;"
 ```
 
