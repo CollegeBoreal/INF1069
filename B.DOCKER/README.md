@@ -138,3 +138,5 @@ $ docker rm `docker ps -a -q` // Enleve tous les containers
 $ docker history nom_image // list l'histoire d'une image
 $ docker info // Recupere docker info
 ```
+### Video
+https://player.oreilly.com/videos/9781491956878?toc_id=244767
